@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TiendaDiscosDb", "TiendaDiscosDb.sqlproj", "{BB306033-A003-4DE9-91B4-90F387ACABF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB306033-A003-4DE9-91B4-90F387ACABF5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7693D0A-8223-4B4B-A5E1-A8F8B191DC78}
+	EndGlobalSection
+EndGlobal

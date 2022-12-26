@@ -1,0 +1,25 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Album] (Tabla)
+       [dbo].[Artist] (Tabla)
+       [dbo].[Customer] (Tabla)
+       [dbo].[Employee] (Tabla)
+       [dbo].[Genre] (Tabla)
+       [dbo].[Invoice] (Tabla)
+       [dbo].[InvoiceLine] (Tabla)
+       [dbo].[MediaType] (Tabla)
+       [dbo].[Playlist] (Tabla)
+       [dbo].[PlaylistTrack] (Tabla)
+       [dbo].[Track] (Tabla)
+
+** Acciones de compatibilidad

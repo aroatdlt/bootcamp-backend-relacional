@@ -1,0 +1,10 @@
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\bin\Debug\TiendaDiscosDb.dacpac
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\bin\Debug\TiendaDiscosDb.dll
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\bin\Debug\TiendaDiscosDb.pdb
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\TiendaDiscosDb.sqlproj.AssemblyReference.cache
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\TiendaDiscosDb.dll
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\TiendaDiscosDb.pdb
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\Model.xml
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\refactor.xml
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\postdeploy.sql
+C:\Users\Aroa\Documents\bootcamp-backend\tiendadiscosdb\TiendaDiscosDb\obj\Debug\predeploy.sql
