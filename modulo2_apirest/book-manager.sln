@@ -5,27 +5,26 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD1A1F43-3849-402D-937D-C6E533FE3CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.Domain", "src\BookManager.Domain\BookManager.Domain.csproj", "{552D6863-8FA2-480D-BBB4-2CD9982155B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Domain", "src\BookManager.Domain\BookManager.Domain.csproj", "{552D6863-8FA2-480D-BBB4-2CD9982155B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.Application", "src\BookManager.Application\BookManager.Application.csproj", "{08970729-7E0F-484E-AE39-FB5434EAE34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Application", "src\BookManager.Application\BookManager.Application.csproj", "{08970729-7E0F-484E-AE39-FB5434EAE34C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager", "src\BookManager\BookManager.csproj", "{2381336F-9508-4511-AB2C-DE3366CF12CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager", "src\BookManager\BookManager.csproj", "{2381336F-9508-4511-AB2C-DE3366CF12CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DFDED6CE-434A-4366-97BF-2EC106DD6ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.Domain.UnitTests", "test\BookManager.Domain.UnitTests\BookManager.Domain.UnitTests.csproj", "{9A09C752-E90F-43D0-80AD-444A6FE661E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Domain.UnitTests", "test\BookManager.Domain.UnitTests\BookManager.Domain.UnitTests.csproj", "{9A09C752-E90F-43D0-80AD-444A6FE661E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.Application.UnitTests", "test\BookManager.Application.UnitTests\BookManager.Application.UnitTests.csproj", "{CA823059-555D-4A08-A4CF-1CA0F0FA3590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Application.UnitTests", "test\BookManager.Application.UnitTests\BookManager.Application.UnitTests.csproj", "{CA823059-555D-4A08-A4CF-1CA0F0FA3590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.FunctionalTests", "test\BookManager.FunctionalTests\BookManager.FunctionalTests.csproj", "{255560F3-8278-4EFD-9C18-F266F340BAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.FunctionalTests", "test\BookManager.FunctionalTests\BookManager.FunctionalTests.csproj", "{255560F3-8278-4EFD-9C18-F266F340BAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.Persistence.SqlServer", "src\BookManager.Persistence.SqlServer\BookManager.Persistence.SqlServer.csproj", "{9B27F09F-841D-4B98-BA15-8023C169E48C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{552D6863-8FA2-480D-BBB4-2CD9982155B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,6 +51,13 @@ Global
 		{255560F3-8278-4EFD-9C18-F266F340BAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{255560F3-8278-4EFD-9C18-F266F340BAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{255560F3-8278-4EFD-9C18-F266F340BAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B27F09F-841D-4B98-BA15-8023C169E48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B27F09F-841D-4B98-BA15-8023C169E48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B27F09F-841D-4B98-BA15-8023C169E48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B27F09F-841D-4B98-BA15-8023C169E48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{552D6863-8FA2-480D-BBB4-2CD9982155B2} = {BD1A1F43-3849-402D-937D-C6E533FE3CA9}
@@ -60,5 +66,9 @@ Global
 		{9A09C752-E90F-43D0-80AD-444A6FE661E9} = {DFDED6CE-434A-4366-97BF-2EC106DD6ED9}
 		{CA823059-555D-4A08-A4CF-1CA0F0FA3590} = {DFDED6CE-434A-4366-97BF-2EC106DD6ED9}
 		{255560F3-8278-4EFD-9C18-F266F340BAA4} = {DFDED6CE-434A-4366-97BF-2EC106DD6ED9}
+		{9B27F09F-841D-4B98-BA15-8023C169E48C} = {BD1A1F43-3849-402D-937D-C6E533FE3CA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D051398D-8509-47DC-B591-E7E72217F388}
 	EndGlobalSection
 EndGlobal
