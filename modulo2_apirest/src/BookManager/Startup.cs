@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BookManager.Persistence.SqlServer;
+using BookManager.Extensions;
 
 namespace BookManager
 {
@@ -22,16 +23,16 @@ namespace BookManager
                 .AddDbContext<BookManagerDbContext>(options =>
                 {
                     options.UseSqlServer(bookManagerConnectionString);
-                });
-                //.AddOpenApi()
-                //.AddControllers();
+                })
+                .AddOpenApi()
+                .AddControllers();
         }
 
         // Middleware pipeline
         public void Configure(IApplicationBuilder app)
         {
             app.UseRouting();
-            //app.UseOpenApi();
+            app.UseOpenApi();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
