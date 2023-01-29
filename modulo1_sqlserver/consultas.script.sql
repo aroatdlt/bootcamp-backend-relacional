@@ -74,11 +74,11 @@ GROUP BY PL.Name
 
 -- Listar las playlist (sin repetir ninguna) que tienen alguna canción de AC/DC
 SELECT PL.Name, COUNT(*) as TrackCount
-FROM dbo.PlaylistTrack PT
+FROM dbo.Playlist PL
+INNER JOIN dbo.PlaylistTrack PT
+	ON PT.PlaylistId = PL.PlaylistId
 INNER JOIN dbo.Track T
 	ON PT.TrackId = T.TrackId
-INNER JOIN dbo.Playlist PL
-	ON PT.PlaylistId = PL.PlaylistId
 WHERE T.Composer = 'AC/DC'
 GROUP BY PL.Name
 
