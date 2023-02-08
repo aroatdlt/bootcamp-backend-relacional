@@ -27,33 +27,20 @@ public class BookManagerCommandServices
         await _bookManagerDbContext.SaveChangesAsync();
     }
 
-    public async Task SendBook(string title, string description, DateTime publishedOn, int authorId)
+    public async Task SendBook(int id, Book data)
     {
         var bookEntity =
             new BookEntity
-            {
-                Title = title,
-                Description = description,
-                PublishedOn = Convert.ToDateTime(publishedOn),
-                AuthorId = authorId
+            {   
+                AuthorId = data.authorId,
+                Title = data.title,
+                Description = data.description,
+                PublishedOn = Convert.ToDateTime(data.publishedOn),
             };
 
         _bookManagerDbContext.Books.Add(bookEntity);
 
         await _bookManagerDbContext.SaveChangesAsync();
     }
-
-
-    //public async Task<Guid> Create()
-    //{
-    //  var bookManagerEntity = new BookManagerEntity();
-    //_bookManagerDbContext.Chats.Add(bookManagerEntity);
-
-    //await _bookManagerDbContext.SaveChangesAsync();
-    //return bookManagerEntity.Id;
-    //}
-
-
-
 }
 

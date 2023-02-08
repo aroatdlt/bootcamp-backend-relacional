@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookManager.Persistence.SqlServer.Migrations
 {
     [DbContext(typeof(BookManagerDbContext))]
-    [Migration("20230110195548_first_migration")]
+    [Migration("20230129183152_first_migration")]
     partial class firstmigration
     {
         /// <inheritdoc />

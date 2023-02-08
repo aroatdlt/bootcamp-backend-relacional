@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <Compile Remove="Models\BookInfoToChange.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
   </ItemGroup>
 

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BookManager.Application.Models
+﻿namespace BookManager.Application.Models
 {
     public class Book
     {
+        public int id { get; set; }
+        public string title { get;  set; } = string.Empty;
+        public DateTime? publishedOn { get; init; }
+        public string description { get; set; } = string.Empty;
+        public int authorId { get; init; }
     }
 }

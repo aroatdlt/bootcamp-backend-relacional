@@ -22,6 +22,7 @@ namespace BookManager
 
             services
                 .AddTransient<BookManagerCommandServices>()
+                .AddTransient<BookQueryService>()
                 .AddDbContext<BookManagerDbContext>(options =>
                 {
                     options.UseSqlServer(bookManagerConnectionString);
