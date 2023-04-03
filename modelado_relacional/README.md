@@ -12,6 +12,7 @@ A tener en cuenta:
 * Los videos tienen autores (ponemos la restricción, un video tiene un autor), un curso puede tener varios autores.
 
 ### Parte obligatoria
+
 Generar un modelado que refleje los siguiente requerimientos:
 
 * Queremos mostrar los últimos cursos publicados.
@@ -20,6 +21,7 @@ Generar un modelado que refleje los siguiente requerimientos:
 * En un video queremos mostrar su autor.
 
 ### Parte opcional
+
 Tener un sólo nivel de áreas es limitado, lo suyo sería tener una estructura jerárquica, por ejemplo:
 * Front End >> React
 * Front End >> React >> Testing
@@ -35,4 +37,12 @@ Van a haber videos publicos y privados, es decir:
 * Esto implica que hayan usuarios registrados y subscripciones.
 
 ## Resolución
+
 ![picture alt](./lab_modelado_relacional.drawio.png "Diagrama modelado relacional")
+
+En el diagrama tenemos cuatro entidades: Curso, Lección, Autor y Área.
+La entidad ** Curso ** tiene como atributos el título, la descripción, la fecha de publicación. Esta última para poder hacer búsquedas de los últimos cursos publicados.
+El curso está formado por muchas ** Lecciones ** las cuáles pueden ser públicas o privadas. Por eso un atributo de la entidad Lección es "esPrivado". De esta manera podremos tener usuarios que puedan acceder sólo a aquellas lecciones que por su perfil, puedan verlas.
+La entidad ** Autor ** puede tener muchas lecciones asociadas y contendrá como atributos el nombre del autor y la biografía.
+Por último, la entidad ** Área ** será el área en el que se asocie un curso y tendrá el parentId como atributo además del nombre. El parentId nos permitirá clasificar los cursos en diferentes jerarquías como las planteadas en el enunciado.
+
