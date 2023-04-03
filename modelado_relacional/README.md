@@ -41,8 +41,8 @@ Van a haber videos publicos y privados, es decir:
 ![picture alt](./lab_modelado_relacional.drawio.png "Diagrama modelado relacional")
 
 En el diagrama tenemos cuatro entidades: Curso, Lección, Autor y Área.
-La entidad ** Curso ** tiene como atributos el título, la descripción, la fecha de publicación. Esta última para poder hacer búsquedas de los últimos cursos publicados.
-El curso está formado por muchas ** Lecciones ** las cuáles pueden ser públicas o privadas. Por eso un atributo de la entidad Lección es "esPrivado". De esta manera podremos tener usuarios que puedan acceder sólo a aquellas lecciones que por su perfil, puedan verlas.
-La entidad ** Autor ** puede tener muchas lecciones asociadas y contendrá como atributos el nombre del autor y la biografía.
-Por último, la entidad ** Área ** será el área en el que se asocie un curso y tendrá el parentId como atributo además del nombre. El parentId nos permitirá clasificar los cursos en diferentes jerarquías como las planteadas en el enunciado.
+- La entidad ** Curso ** tiene como atributos el título, la descripción, la fecha de publicación. Esta última para poder hacer búsquedas de los últimos cursos publicados.
+- El curso está formado por muchas ** Lecciones ** las cuáles pueden ser públicas o privadas. Por eso un atributo de la entidad Lección es "esPrivado". De esta manera podremos tener usuarios que puedan acceder sólo a aquellas lecciones que por su perfil, puedan verlas.
+- La entidad ** Autor ** puede tener muchas lecciones asociadas y contendrá como atributos el nombre del autor y la biografía.
+- Por último, la entidad ** Área ** será el área en el que se asocie un curso y tendrá el parentId como atributo además del nombre. El parentId nos permitirá clasificar los cursos en diferentes jerarquías como las planteadas en el enunciado.
 
